@@ -1,4 +1,4 @@
-1.The image file you selected for the site logo: https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/dryoarlogo3.png
+1.The image file you selected for the site logo: images/dryoarlogo3.png
 
 
 2.Write out the four (4) color labels (listed below) with the color codes you selected:
@@ -8,15 +8,10 @@
     accent2-color: 735055
 
 3.Write out the two (2) font labels (listed below) and the names of the fonts you selected:
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Faculty+Glyphic&family=Poppins:wght@100;400&display=swap" rel="stylesheet">
 
-    font-family: "Poppins", serif;
+    heading-font: "Lato", sans-serif;
 
-    heading-font:  font-weight: 100;
-
-    text-font: font-weight: 400;
+    text-font: "Poppins", serif;
 
 4.Provide the URL link to your color palette that you designed in coolors.co
 Here is an example URL link: https://coolors.co/e2dcde-ceb1be-b97375-735055
