@@ -4,12 +4,11 @@
   --accent1-color: #b97375;
   --accent2-color: #735055;
 
-  --heading-font: "Poppins", serif;
+  --heading-font: font-family: "Lato", serif;;
   --text-font: "Poppins", serif;
 }
 body {
   font-family: var(--text-font);
-  /* background-color: var(--primary-color); */
   width: 50%;
   font-weight: 400;
   color: var(--accent1-color);
@@ -17,15 +16,23 @@ body {
 .logoimg {
   width: 130px;
 }
-.hero {
-  position: relative;
-}
 nav a {
   text-decoration: none;
   color: black;
 }
 
-h1 {
+h1,
+h2 {
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  font-weight: 700;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero h1 {
   position: absolute;
   top: 10%;
   width: 100%;
@@ -37,12 +44,19 @@ h1 {
   margin: 8px 0;
   text-transform: uppercase;
 }
-h1,
-h2 {
-  font-family: var(--heading-font);
-  color: var(--accent2-color);
-  font-weight: 500;
+
+.hero article {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  width: 90%;
+  font-size: 17px;
+  background-color: var(--primary-color);
+  opacity: 0.9;
+  padding: 3px;
+  display: block;
 }
+
 .img1 {
   width: 100%;
   height: auto;
@@ -54,27 +68,17 @@ h2 {
   height: auto;
   padding: 5px;
 }
-article {
-  position: absolute;
-  right: 0;
-  top: 30%;
-  width: 90%;
-  font-size: 17px;
-  background-color: var(--primary-color);
-  opacity: 0.9;
-  padding: 3px;
+
+section img {
+  width: 400px;
+  height: auto;
   display: block;
 }
 .sociallinks {
   text-decoration: none;
 }
-a img {
+.sociallinks img {
   width: 25px;
   height: auto;
   padding: 0 5px;
-}
-section img {
-  width: 400px;
-  height: auto;
-  display: block;
 }
