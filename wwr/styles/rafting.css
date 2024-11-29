@@ -4,13 +4,24 @@
   --accent1-color: #b97375;
   --accent2-color: #735055;
 
-  --heading-font: font-family: "Lato", serif;;
-  --text-font: "Poppins", serif;
+  --heading-font: "Lato" serif;
+  --text-font: "Poppins" serif;
 }
+
+h1,
+h2 {
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  font-style: italic;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px var(--accent1-color);
+}
+
 body {
   font-family: var(--text-font);
-  width: 50%;
-  font-weight: 400;
+  max-width: 50%;
+  font-weight: 500;
+  font-size: 20px;
   color: var(--accent1-color);
 }
 .logoimg {
@@ -19,13 +30,6 @@ body {
 nav a {
   text-decoration: none;
   color: black;
-}
-
-h1,
-h2 {
-  font-family: var(--heading-font);
-  color: var(--accent2-color);
-  font-weight: 700;
 }
 
 .hero {
@@ -60,7 +64,9 @@ h2 {
 .img1 {
   width: 100%;
   height: auto;
+  display: block;
 }
+
 .img2 {
   float: right;
   margin-right: 5px;
