@@ -2,7 +2,7 @@
   --primary-color: #e2dcde;
   --secondary-color: #ceb1be;
   --accent1-color: #b97375;
-  --accent2-color: #735055;
+  --accent2-color: #000000;
 
   --heading-font: "Lato" serif;
   --text-font: "Poppins" serif;
@@ -13,14 +13,13 @@ h2 {
   font-family: var(--heading-font);
   color: var(--accent2-color);
   font-weight: 700;
-  text-shadow: 2px 2px 4px var(--accent1-color);
 }
 
 body {
   font-family: var(--text-font);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
-  color: var(--accent1-color);
+  color: var(--accent2-color);
 }
 .logoimg {
   width: 50%;
@@ -90,7 +89,7 @@ header nav a {
   border: 1px solid black;
 }
 header nav a:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--accent2-color);
   color: var(--primary-color);
   font-weight: bold;
 }
@@ -106,7 +105,7 @@ header nav a:hover {
   justify-content: space-around;
 }
 .flex-container > a {
-  color: var(--accent1-color);
+  color: var(--accent2-color);
   margin: 5px;
   padding: 5px;
 }
@@ -211,7 +210,6 @@ footer {
 footer p {
   margin: 0;
   font-size: 20px;
-  text-shadow: 2px 2px 4px var(--accent1-color);
 }
 
 nav.sociallinks {
