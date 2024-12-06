@@ -311,3 +311,6 @@ fieldset legend {
   font-weight: bold;
   margin-bottom: 5px;
 }
+.map {
+  border: 0;
+}
