@@ -292,13 +292,15 @@ form textarea:focus {
 
 form button {
   background-color: #007bff;
-  color: white;
+  color: var(--accent2-color);
   border: none;
   cursor: pointer;
+  font-weight: bold;
 }
 
 form button:hover {
-  background-color: #0056b3;
+  background-color: var(--accent2-color);
+  color: white;
 }
 
 fieldset {
@@ -311,6 +313,8 @@ fieldset legend {
   font-weight: bold;
   margin-bottom: 5px;
 }
-.map {
+iframe {
   border: 0;
+  width: 600;
+  height: 450;
 }
