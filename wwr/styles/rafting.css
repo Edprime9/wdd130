@@ -231,7 +231,7 @@ section {
   text-align: center;
 }
 
-.team-grid {
+.team-grid div {
   display: flex;
   justify-content: space-around;
   gap: 20px;
