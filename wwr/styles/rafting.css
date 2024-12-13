@@ -74,7 +74,6 @@ section img {
   display: block;
 }
 
-/* Using CSS Grid and Flex */
 header {
   background-color: var(--primary-color);
   margin: 1rem auto;
@@ -110,7 +109,6 @@ header nav a:hover {
   padding: 5px;
 }
 
-/* HISTORY SECTION */
 #history {
   background-color: var(--primary-color);
   padding: 40px;
@@ -122,7 +120,6 @@ header nav a:hover {
 }
 
 #history h2 {
-  /* font-size: 28px; */
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -146,7 +143,6 @@ header nav a:hover {
   height: auto;
 }
 
-/* Style the Heading */
 .history h2 {
   margin-bottom: 15px;
 }
@@ -194,6 +190,7 @@ header nav a:hover {
 .adventure-grid figcaption {
   margin-top: 10px;
   font-size: 14px;
+  font-weight: bold;
 }
 footer {
   background-color: var(--primary-color);
@@ -227,8 +224,6 @@ nav.sociallinks img {
   object-fit: contain;
 }
 
-/* CONTACT US PAGE */
-/* Common Section Styling */
 section {
   margin: 40px auto;
   padding: 20px;
@@ -236,7 +231,6 @@ section {
   text-align: center;
 }
 
-/* Team Grid Styling */
 .team-grid {
   display: flex;
   justify-content: space-around;
@@ -258,16 +252,15 @@ section {
 
 .team-grid figcaption {
   margin-top: 10px;
-  font-size: 14px;
-  color: #555;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-/* Contact Form Styling */
 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 form label {
@@ -313,4 +306,52 @@ fieldset legend {
 }
 iframe {
   border: 0;
+}
+
+.call-to-action {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f0f8ff;
+}
+
+.call-to-action h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.call-to-action p {
+  margin-bottom: 1.5rem;
+}
+
+.call-to-action .btn {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.call-to-action .btn:hover {
+  background-color: #004d99;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th, table td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background: #004a70;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background: #f9f9f9;
 }
